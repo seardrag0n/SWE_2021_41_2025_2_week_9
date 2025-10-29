@@ -4,8 +4,7 @@ def even_list(int_list: List[int]) -> List[int]:
     """
     Determines if a number is even and returns an even list.
     """
-    # TODO: Implement even_list
-    pass
+    return [n for n in int_list if isinstance(n, int) and n % 2 == 0]
 
 
 def sum_of_squares_of_even(even_int_list: List[int]) -> int:
